@@ -1,0 +1,882 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A;  \/**< The full change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+A	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vieta<T> A;$/;"	m	class:starry::solver::Solver
+A1	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A1; \/**< The polynomial change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+A1Inv	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^      A1Inv; \/**< The inverse of the polynomial change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+A1Inv_Reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A1Inv_Reflected;$/;"	m	class:starry::basis::Basis
+A1_Reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A1_Reflected;$/;"	m	class:starry::basis::Basis
+A1_big	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^      A1_big; \/**< The augmented polynomial change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+A1_f	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A1_f; \/**< The polynomial change of basis matrix for$/;"	m	class:starry::basis::Basis
+A2	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A2; \/**< The Green's change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+A2Inv_Reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A2Inv_Reflected;$/;"	m	class:starry::basis::Basis
+A2_Reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> A2_Reflected;$/;"	m	class:starry::basis::Basis
+ADTypeSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Solver<ADType, true> ADTypeSolver;$/;"	m	class:starry::solver::Greens
+AInv_Reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Eigen::SparseMatrix<T> AInv_Reflected;$/;"	m	class:starry::basis::Basis
+B	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  basis::Basis<Scalar> B;$/;"	m	class:starry::filter::Filter
+B	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  basis::Basis<Scalar> B;$/;"	m	class:starry::Ops
+B	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  basis::Basis<Scalar> B;$/;"	m	class:starry::reflected::occultation::Occultation
+B	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  basis::Basis<typename T::Scalar> B;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+Basis	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  explicit Basis(int ydeg, int udeg, int fdeg, T norm = 2.0 \/ root_pi<T>())$/;"	f	class:starry::basis::Basis
+Basis	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^template <typename T> class Basis {$/;"	c	namespace:starry::basis
+BruteSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^class BruteSolver:$/;"	c
+BuildExt	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^class BuildExt(build_ext):$/;"	c
+C	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Matrix<A> C;$/;"	m	class:starry::oblate::occultation::Occultation
+CEL	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	/^inline void CEL(T k2, T kc, T p, T a1, T a2, T a3, T b1, T b2, T b3, T &Piofk,$/;"	f	namespace:starry::ellip
+CEL	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	/^template <typename T> T CEL(T ksq, T kc, T p, T a, T b) {$/;"	f	namespace:starry::ellip
+CEL	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	/^template <typename T> T CEL(T ksq, T p, T a, T b) {$/;"	f	namespace:starry::ellip
+CHECK_BOUNDS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	108;"	d
+CHECK_BOUNDS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	91;"	d
+CHECK_COLS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	100;"	d
+CHECK_COLS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	85;"	d
+CHECK_ROWS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	104;"	d
+CHECK_ROWS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	88;"	d
+CHECK_SHAPE	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	81;"	d
+CHECK_SHAPE	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	96;"	d
+Compare	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class Compare:$/;"	c
+CppSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^class CppSolver:$/;"	c
+DFDp	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^      DFDp; \/**< Deriv of the filter operator w\/ respect to the complete filter$/;"	m	class:starry::filter::Filter
+DRDtheta	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  std::vector<Matrix<Scalar>> DRDtheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+DRDx	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  std::vector<Matrix<Scalar>> DRDx;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+DRDy	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  std::vector<Matrix<Scalar>> DRDy;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+DRDz	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  std::vector<Matrix<Scalar>> DRDz;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+D_ad	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^      D_ad; \/**< [AutoDiffScalar] The complex Wigner matrix *\/$/;"	m	class:starry::wigner::Wigner
+Dbo_n	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^Dbo_n = ($/;"	v
+Df_n	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^Df_n = ($/;"	v
+Dro_n	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^Dro_n = ($/;"	v
+Dtheta_n	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^Dtheta_n = ($/;"	v
+E	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A E;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+E0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A E0;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+EllipticE	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T EllipticE;$/;"	m	class:starry::solver::Solver
+EllipticEK	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T EllipticEK;$/;"	m	class:starry::solver::Solver
+Em1mKdm	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T Em1mKdm;$/;"	m	class:starry::limbdark::GreensLimbDark
+Eofk	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T Eofk;$/;"	m	class:starry::limbdark::GreensLimbDark
+Ev	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> Ev;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+Evaluation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      explicit Evaluation(Scalar x) : _x(x), _v(1), _d(0) { this->evaluate(x); }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+Evaluation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    class Evaluation {$/;"	c	class:starry::oblate::numerical::Quad::LegendrePolynomial
+Evaluation	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      explicit Evaluation(T x) : _x(x), _v(1), _d(0) { this->evaluate(x); }$/;"	f	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+Evaluation	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    class Evaluation {$/;"	c	class:starry::quad::Quad::LegendrePolynomial
+F	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^      F; \/**< The filter operator in the polynomial basis. TODO: Make sparse? *\/$/;"	m	class:starry::filter::Filter
+F	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  filter::Filter<Scalar> F;$/;"	m	class:starry::Ops
+F	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A F;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+F0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A F0;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+FLUX_DAY_OCC	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	65;"	d
+FLUX_DAY_VIS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	66;"	d
+FLUX_NIGHT_OCC	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	67;"	d
+FLUX_NIGHT_VIS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	68;"	d
+FLUX_NOON	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	76;"	d
+FLUX_QUAD_DAY_VIS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	74;"	d
+FLUX_QUAD_NIGHT_VIS	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	75;"	d
+FLUX_SIMPLE_OCC	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	69;"	d
+FLUX_SIMPLE_OCC_REFL	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	71;"	d
+FLUX_SIMPLE_REFL	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	70;"	d
+FLUX_TRIP_DAY_OCC	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	72;"	d
+FLUX_TRIP_NIGHT_OCC	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	73;"	d
+FLUX_ZERO	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	64;"	d
+Filter	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  explicit Filter(basis::Basis<Scalar> &B)$/;"	f	class:starry::filter::Filter
+Filter	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^template <typename Scalar> class Filter {$/;"	c	namespace:starry::filter
+Fv	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> Fv;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+G	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def G(n, f):$/;"	f
+G	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  solver::Greens<Scalar> G;$/;"	m	class:starry::Ops
+G0	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^        def G0(x, y):$/;"	f	function:G
+G1	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^        def G1(x, y):$/;"	f	function:G
+G_Big	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  solver::Solver<T, true> G_Big;   \/\/ Oren-Nayar case$/;"	m	class:starry::reflected::occultation::Occultation
+G_Small	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  solver::Solver<T, true> G_Small; \/\/ Lambertian case$/;"	m	class:starry::reflected::occultation::Occultation
+Greens	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  explicit Greens(int lmax)$/;"	f	class:starry::solver::Greens
+Greens	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^template <class Scalar> class Greens {$/;"	c	namespace:starry::solver
+GreensLimbDark	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  explicit GreensLimbDark(int lmax)$/;"	f	class:starry::limbdark::GreensLimbDark
+GreensLimbDark	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> class GreensLimbDark {$/;"	c	namespace:starry::limbdark
+H	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline Matrix<ADScalar<T, N>> H(const int uvmax,$/;"	f	namespace:starry::reflected::primitive
+H	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  HIntegral<T> H;$/;"	m	class:starry::solver::Solver
+HIntegral	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  explicit HIntegral(int lmax)$/;"	f	class:starry::solver::HIntegral
+HIntegral	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^template <class T> class HIntegral {$/;"	c	namespace:starry::solver
+I	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Eigen::SparseMatrix<T> I;$/;"	m	class:starry::reflected::occultation::Occultation
+I	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline Vector<T> I(const int nmax, const Vector<T> &kappa_,$/;"	f	namespace:starry::reflected::primitive
+I	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> I;$/;"	m	class:starry::solver::Solver
+IGamma	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> IGamma;$/;"	m	class:starry::solver::Solver
+ILLUM	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  Eigen::SparseMatrix<T> ILLUM;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+I_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^template <typename T> inline T I_integrand(const int N, const T &phi) {$/;"	f	namespace:starry::reflected::special
+I_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T I_numerical(const int N, const Vector<T> &kappa,$/;"	f	namespace:starry::reflected::special
+IncompleteEllipticIntegrals	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  explicit IncompleteEllipticIntegrals(const A &bo, const A &ro,$/;"	f	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+IncompleteEllipticIntegrals	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^template <class T> class IncompleteEllipticIntegrals {$/;"	c	namespace:starry::reflected::ellip
+J	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^J(const int nmax, const T &k2, const T &km2, const Vector<T> &kappa,$/;"	f	namespace:starry::reflected::primitive
+J	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> J;$/;"	m	class:starry::solver::Solver
+J_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T J_integrand(const int N, const T &k2, const T &phi) {$/;"	f	namespace:starry::reflected::special
+J_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T J_numerical(const int N, const T &k2, const Vector<T> &kappa,$/;"	f	namespace:starry::reflected::special
+K	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Vector<A> K;$/;"	m	class:starry::oblate::occultation::Occultation
+K	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  size_t K;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+K	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline T K(Vieta<T> &A, const Vector<T> &I, const int u, const int v) {$/;"	f	namespace:starry::reflected::primitive
+K	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline T K(int u, int v) {$/;"	f	class:starry::solver::Solver
+K_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline T K_integrand(const int u, const int v, const T &delta, const T &phi) {$/;"	f	namespace:starry::solver
+K_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline T K_numerical(const int u, const int v, const T &delta, const T &kappa,$/;"	f	namespace:starry::solver
+L	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline T L(Vieta<T> &A, const Vector<T> &J, const int u, const int v,$/;"	f	namespace:starry::reflected::primitive
+L	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline T L(int u, int v, int t) {$/;"	f	class:starry::solver::Solver
+L_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline T L_integrand(const int u, const int v, const int t, const T &delta,$/;"	f	namespace:starry::solver
+L_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline T L_numerical(const int u, const int v, const int t, const T &delta,$/;"	f	namespace:starry::solver
+LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    LegendrePolynomial() {$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial
+LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  class LegendrePolynomial {$/;"	c	class:starry::oblate::numerical::Quad
+LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    LegendrePolynomial() {$/;"	f	class:starry::quad::Quad::LegendrePolynomial
+LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  class LegendrePolynomial {$/;"	c	class:starry::quad::Quad
+Lij	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  Matrix<T> Lij;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+Lp	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Matrix<A> Lp;$/;"	m	class:starry::oblate::occultation::Occultation
+Lt	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Matrix<A> Lt;$/;"	m	class:starry::oblate::occultation::Occultation
+M	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> M;$/;"	m	class:starry::limbdark::GreensLimbDark
+M	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Matrix<A> M;$/;"	m	class:starry::oblate::occultation::Occultation
+M_PI	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	55;"	d
+M_SQRTPI	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	60;"	d
+M_coeff	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  Matrix<T> M_coeff;$/;"	m	class:starry::limbdark::GreensLimbDark
+Mij	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  Matrix<T> Mij;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+Multi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^    Multi;$/;"	t
+Multi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^typedef void Multi;$/;"	t
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int N;    \/**< *\/$/;"	m	class:starry::filter::Filter
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> N;$/;"	m	class:starry::limbdark::GreensLimbDark
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int N;$/;"	m	class:starry::Ops
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int N;$/;"	m	class:starry::reflected::occultation::Occultation
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int N;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int N;$/;"	m	class:starry::solver::Greens
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int N;$/;"	m	class:starry::solver::Solver
+N	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int N;    \/**< *\/$/;"	m	class:starry::wigner::Wigner
+NDEBUG	/home/st9/repo/starry/starry/_core/ops/lib/include/interface.cpp	9;"	d	file:
+NDEBUG	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate.cpp	3;"	d	file:
+N_coeff	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  Matrix<T> N_coeff;$/;"	m	class:starry::limbdark::GreensLimbDark
+N_lamb	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int N_lamb;$/;"	m	class:starry::reflected::occultation::Occultation
+N_lamb	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int N_lamb;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+N_on94	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int N_on94;$/;"	m	class:starry::reflected::occultation::Occultation
+N_on94	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int N_on94;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+Nb	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    Nb = 4$/;"	v
+Nf	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int Nf;   \/**< Number of filter `(l, m)` coefficients *\/$/;"	m	class:starry::filter::Filter
+Nf	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int Nf; \/**< Number of filter `(l, m)` coefficients *\/$/;"	m	class:starry::Ops
+Nf	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int Nf;   \/**< Number of filter `(l, m)` coefficients *\/$/;"	m	class:starry::wigner::Wigner
+Nu	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int Nu;   \/**< Number of limb darkening coefficients *\/$/;"	m	class:starry::filter::Filter
+Nu	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int Nu; \/**< Number of limb darkening coefficients *\/$/;"	m	class:starry::Ops
+Nu	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int Nu;   \/**< Number of limb darkening coefficients *\/$/;"	m	class:starry::wigner::Wigner
+Nuf	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int Nuf;  \/**< *\/$/;"	m	class:starry::filter::Filter
+NumericalSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^class NumericalSolver:$/;"	c
+Ny	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int Ny;   \/**< Number of spherical harmonic `(l, m)` coefficients *\/$/;"	m	class:starry::filter::Filter
+Ny	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int Ny; \/**< Number of spherical harmonic `(l, m)` coefficients *\/$/;"	m	class:starry::Ops
+Ny	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int Ny;   \/**< Number of spherical harmonic `(l, m)` coefficients *\/$/;"	m	class:starry::wigner::Wigner
+OBL	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  oblate::occultation::Occultation<Scalar, 0> OBL;$/;"	m	class:starry::Ops
+OBLAD	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  oblate::occultation::Occultation<Scalar, 4> OBLAD;$/;"	m	class:starry::Ops
+Occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  explicit Occultation(int deg) : deg(deg), ncoeff((deg + 1) * (deg + 1)) {$/;"	f	class:starry::oblate::occultation::Occultation
+Occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^template <class Scalar, int N> class Occultation {$/;"	c	namespace:starry::oblate::occultation
+Occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  explicit Occultation(int deg, const basis::Basis<Scalar> &B)$/;"	f	class:starry::reflected::occultation::Occultation
+Occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^template <class T> class Occultation {$/;"	c	namespace:starry::reflected::occultation
+Ops	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  explicit Ops(int ydeg, int udeg, int fdeg)$/;"	f	class:starry::Ops
+Ops	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^template <class Scalar> class Ops {$/;"	c	namespace:starry
+OrenNayarPolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^inline Vector<T> OrenNayarPolynomial(const T &b, const T &theta, const T &sigr,$/;"	f	namespace:starry::reflected::scatter
+P2	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T P2(const T &bo, const T &ro, const T &k2, const Vector<T> &kappa,$/;"	f	namespace:starry::reflected::special
+P2_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T P2_integrand(const T &bo, const T &ro, const T &phi) {$/;"	f	namespace:starry::reflected::special
+P2_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T P2_numerical(const T &bo, const T &ro, const Vector<T> &kappa,$/;"	f	namespace:starry::reflected::special
+PIntegral	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> PIntegral;$/;"	m	class:starry::reflected::occultation::Occultation
+PIp	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A PIp;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+PIp0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A PIp0;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+POLYTOL	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	21;"	d
+PQT	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  RowVector<T> PQT;$/;"	m	class:starry::reflected::occultation::Occultation
+PYBIND11_MODULE	/home/st9/repo/starry/starry/_core/ops/lib/include/interface.cpp	/^PYBIND11_MODULE(_c_ops, m) {$/;"	f
+PYBIND11_MODULE	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate.cpp	/^PYBIND11_MODULE(_c_ops, m) {$/;"	f
+PhaseCurve	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  explicit PhaseCurve(int deg, const basis::Basis<typename T::Scalar> &B)$/;"	f	class:starry::reflected::phasecurve::PhaseCurve
+PhaseCurve	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^template <class T> class PhaseCurve {$/;"	c	namespace:starry::reflected::phasecurve
+PythonSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^class PythonSolver:$/;"	c
+QIntegral	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> QIntegral;$/;"	m	class:starry::reflected::occultation::Occultation
+QUAD	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Quad<Scalar, N> QUAD;$/;"	m	class:starry::oblate::occultation::Occultation
+QUAD	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  quad::Quad<Scalar> QUAD;$/;"	m	class:starry::reflected::occultation::Occultation
+QUAD	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Quad<T> QUAD;$/;"	m	class:starry::solver::Solver
+Quad	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^template <typename Scalar, int N> class Quad {$/;"	c	namespace:starry::oblate::numerical
+Quad	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^template <typename T> class Quad {$/;"	c	namespace:starry::quad
+R	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  phasecurve::PhaseCurve<T> R;$/;"	m	class:starry::reflected::occultation::Occultation
+R	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  std::vector<Matrix<Scalar>> R; \/**< The real Wigner matrix *\/$/;"	m	class:starry::wigner::Wigner
+RO	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  reflected::occultation::Occultation<ADScalar<Scalar, 5>> RO;$/;"	m	class:starry::Ops
+RP	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  reflected::phasecurve::PhaseCurve<ADScalar<Scalar, 2>> RP;$/;"	m	class:starry::Ops
+R_ad	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^      R_ad; \/**< [AutoDiffScalar] The real Wigner matrix *\/$/;"	m	class:starry::wigner::Wigner
+S	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  Matrix<A> S;$/;"	m	class:starry::oblate::occultation::Occultation
+STARRY_2F1_MAXITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	72;"	d
+STARRY_2F1_MAXTOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	77;"	d
+STARRY_2F1_MINTOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	82;"	d
+STARRY_ANGLE_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	150;"	d
+STARRY_BCUT	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	42;"	d
+STARRY_BO_EQUALS_ONE_MINUS_RO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	145;"	d
+STARRY_BO_EQUALS_RO_EQUALS_HALF_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	160;"	d
+STARRY_BO_EQUALS_RO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	155;"	d
+STARRY_BO_EQUALS_ZERO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	165;"	d
+STARRY_B_ONE_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	135;"	d
+STARRY_B_ZERO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	131;"	d
+STARRY_COMPLETE_OCC_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	185;"	d
+STARRY_CRJ_HI_LIM	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	210;"	d
+STARRY_CRJ_LO_LIM	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	205;"	d
+STARRY_CRJ_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	200;"	d
+STARRY_CRJ_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	215;"	d
+STARRY_EL2_CA	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	57;"	d
+STARRY_EL2_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	52;"	d
+STARRY_ELLIP_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	22;"	d
+STARRY_ENABLE_BOOST	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	29;"	d
+STARRY_GRAZING_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	195;"	d
+STARRY_HUGE_TAN	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	62;"	d
+STARRY_IJ_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	32;"	d
+STARRY_K2_ONE_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	67;"	d
+STARRY_MAX_LMAX	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	87;"	d
+STARRY_MIN_F	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	140;"	d
+STARRY_MIN_SIN_ALPHA	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	180;"	d
+STARRY_MN_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	27;"	d
+STARRY_MULTI	/home/st9/repo/starry/starry/_core/ops/lib/include/interface.cpp	28;"	d	file:
+STARRY_NDIGITS	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	12;"	d
+STARRY_NO_OCC_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	190;"	d
+STARRY_OREN_NAYAR_COEFFS	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.h	/^static const double STARRY_OREN_NAYAR_COEFFS[] = {$/;"	v
+STARRY_OREN_NAYAR_DEG	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.h	4;"	d
+STARRY_OREN_NAYAR_N	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.h	5;"	d
+STARRY_OREN_NAYAR_NB	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.h	6;"	d
+STARRY_PAL_BO_EQUALS_ONE_MINUS_RO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	230;"	d
+STARRY_PAL_BO_EQUALS_RO_MINUS_ONE_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	225;"	d
+STARRY_PAL_BO_EQUALS_RO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	220;"	d
+STARRY_QUAD_POINTS	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	17;"	d
+STARRY_REFINE_J_AT	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	37;"	d
+STARRY_ROOT_MAX_ITER	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	127;"	d
+STARRY_ROOT_TOL_DUP	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	117;"	d
+STARRY_ROOT_TOL_FINAL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	122;"	d
+STARRY_ROOT_TOL_HIGH	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	112;"	d
+STARRY_ROOT_TOL_LOW	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	97;"	d
+STARRY_ROOT_TOL_MED	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	107;"	d
+STARRY_ROOT_TOL_THETA_PI_TWO	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	102;"	d
+STARRY_RO_EQUALS_ZERO_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	170;"	d
+STARRY_THETA_UNIT_RADIUS_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	175;"	d
+STARRY_T_TOL	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	92;"	d
+STARRY_USE_INCOMPLETE_INTEGRALS	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	47;"	d
+ScalarSolver	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Solver<Scalar, false> ScalarSolver;$/;"	m	class:starry::solver::Greens
+Solver	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  explicit Solver(int lmax)$/;"	f	class:starry::solver::Solver
+Solver	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^template <class T, bool AUTODIFF> class Solver {$/;"	c	namespace:starry::solver
+StarryException	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^  StarryException(const std::string &msg, const std::string &file,$/;"	f	class:starry::utils::StarryException
+StarryException	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^class StarryException : public std::exception {$/;"	c	namespace:starry::utils
+T2_indef	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^template <typename T> inline T T2_indef(const T &b, const T &xi) {$/;"	f	namespace:starry::reflected::primitive
+TIntegral	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> TIntegral;$/;"	m	class:starry::reflected::occultation::Occultation
+TestBoEqualsOneMinusRo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestBoEqualsOneMinusRo(Compare):$/;"	c
+TestBoEqualsRo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestBoEqualsRo(Compare):$/;"	c
+TestCompleteOccultation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestCompleteOccultation(Compare):$/;"	c
+TestCppExact	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestCppExact:$/;"	c
+TestDebug	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestDebug(Compare):$/;"	c
+TestEdgeCases	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestEdgeCases(Compare):$/;"	c
+TestKsqGreaterThanOne	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestKsqGreaterThanOne(Compare):$/;"	c
+TestKsqLessThanHalf	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestKsqLessThanHalf(Compare):$/;"	c
+TestKsqLessThanOne	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestKsqLessThanOne(Compare):$/;"	c
+TestNearlySpherical	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestNearlySpherical(Compare):$/;"	c
+TestNoOccultation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestNoOccultation(Compare):$/;"	c
+TestOccultorDoesntTouchLimb	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestOccultorDoesntTouchLimb(Compare):$/;"	c
+TestSinOrCosThetaIsZero	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestSinOrCosThetaIsZero(Compare):$/;"	c
+TestSmallImpactParameter	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestSmallImpactParameter(Compare):$/;"	c
+TestSmallRadius	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^class TestSmallRadius(Compare):$/;"	c
+U	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^template <typename T> inline Vector<T> U(const int vmax, const Vector<T> &s2) {$/;"	f	namespace:starry::reflected::primitive
+U1	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^      U1; \/**< The limb darkening to polynomial change of basis matrix *\/$/;"	m	class:starry::basis::Basis
+Vieta	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  explicit Vieta(int lmax)$/;"	f	class:starry::reflected::primitive::Vieta
+Vieta	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^template <class T> class Vieta {$/;"	c	namespace:starry::reflected::primitive
+Vieta	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  explicit Vieta(int lmax)$/;"	f	class:starry::solver::Vieta
+Vieta	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^template <class T> class Vieta {$/;"	c	namespace:starry::solver
+W	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  wigner::Wigner<Scalar> W;$/;"	m	class:starry::Ops
+W	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline Vector<T> W(const int nmax, const Vector<T> &s2, const Vector<T> &q2,$/;"	f	namespace:starry::reflected::primitive
+W_indef	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline Vector<T> W_indef(const int nmax, const T &s2_, const T &q2,$/;"	f	namespace:starry::reflected::primitive
+Wigner	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Wigner(int ydeg, int udeg, int fdeg)$/;"	f	class:starry::wigner::Wigner
+Wigner	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^template <class Scalar> class Wigner {$/;"	c	namespace:starry::wigner
+X	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        X = design_matrix(x, y, z, b, deg=deg, Nb=Nb)$/;"	v
+_STARRY_BASIS_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	8;"	d
+_STARRY_CONSTANTS_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/macros.h	8;"	d
+_STARRY_ELLIP_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	18;"	d
+_STARRY_FILTER_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	8;"	d
+_STARRY_GEOMETRY_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	8;"	d
+_STARRY_LIMBDARK_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	11;"	d
+_STARRY_MISC_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/misc.h	8;"	d
+_STARRY_OBLATE_GEOMETRY_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	8;"	d
+_STARRY_OBLATE_NUMERICAL_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	8;"	d
+_STARRY_OBLATE_OCCULTATION_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	9;"	d
+_STARRY_PRIMITIVE_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	8;"	d
+_STARRY_QUAD_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	11;"	d
+_STARRY_REFLECTED_ELLIP_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	14;"	d
+_STARRY_REFLECTED_OCCULTATION_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	10;"	d
+_STARRY_REFLECTED_OREN_NAYAR_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.h	2;"	d
+_STARRY_REFLECTED_PHASECURVE_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	8;"	d
+_STARRY_REFLECTED_SCATTER_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	8;"	d
+_STARRY_REFLECTED_SPECIAL_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	8;"	d
+_STARRY_SOLVER_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	11;"	d
+_STARRY_STURM_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	10;"	d
+_STARRY_THEANO_HELPERS_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	2;"	d
+_STARRY_UTILS_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	8;"	d
+_STARRY_WIGNER_H_	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	8;"	d
+__all__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^__all__ = [$/;"	v
+__all__	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^__all__ = ["generate_header"]$/;"	v
+__init__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def __init__(self, lmax=5):$/;"	m	class:CppSolver
+__init__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def __init__(self, lmax=5):$/;"	m	class:PythonSolver
+__init__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def __init__(self, lmax=5, linear=False):$/;"	m	class:NumericalSolver
+__init__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def __init__(self, lmax=5, res=999, grid_star=False):$/;"	m	class:BruteSolver
+__init__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    def __init__(self, user=False):$/;"	m	class:get_pybind_include
+__str__	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    def __str__(self):$/;"	m	class:get_pybind_include	file:
+_d	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar _d;$/;"	m	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+_d	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T _d;$/;"	m	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+_get_sTbar	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def _get_sTbar($/;"	m	class:PythonSolver
+_v	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar _v;$/;"	m	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+_v	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T _v;$/;"	m	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+_x	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar _x;$/;"	m	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+_x	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T _x;$/;"	m	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+allocate_output	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^DTYPE_OUTPUT_NUM *allocate_output(int ndim, npy_intp *shape, int typenum,$/;"	f	namespace:starry
+amp	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^template <typename Derived> inline void amp(int lmax, MatrixBase<Derived> &M) {$/;"	f	namespace:starry::basis
+angle	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^inline T angle(const T &x, const Scalar max_angle = 2 * M_PI) {$/;"	f	namespace:starry::utils
+arccosh	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^inline ADScalar<T, N> arccosh(const ADScalar<T, N> &x) {$/;"	f	namespace:starry::reflected::ellip
+arccosh	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^template <typename T> inline T arccosh(const T &x) { return acosh(x); }$/;"	f	namespace:starry::reflected::ellip
+arctan	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^inline ADScalar<T, N> arctan(const ADScalar<T, N> &x) {$/;"	f	namespace:starry::reflected::ellip
+arctan	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^template <typename T> inline T arctan(const T &x) { return atan(x); }$/;"	f	namespace:starry::reflected::ellip
+axisAngleToEuler	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^inline void axisAngleToEuler(const Scalar &axis_x, const Scalar &axis_y,$/;"	f	namespace:starry::wigner
+b	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T b;$/;"	m	class:starry::limbdark::GreensLimbDark
+b	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T b;$/;"	m	class:starry::solver::Solver
+b2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T b2;$/;"	m	class:starry::limbdark::GreensLimbDark
+b2mr22	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T b2mr22;$/;"	m	class:starry::limbdark::GreensLimbDark
+b_ad	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  ADType b_ad;$/;"	m	class:starry::solver::Greens
+bamp	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  RowVector<Scalar> bamp;$/;"	m	class:starry::Ops
+basis	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^namespace basis {$/;"	n	namespace:starry
+bc	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        bc = np.sqrt(1 - b ** 2)$/;"	v
+bf	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  Vector<Scalar> bf;$/;"	m	class:starry::filter::Filter
+bins	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        bins = np.linspace(-0.1, 0.1, 50)$/;"	v
+blat	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  Scalar blat;$/;"	m	class:starry::Ops
+blon	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  Scalar blon;$/;"	m	class:starry::Ops
+bmr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T bmr;$/;"	m	class:starry::limbdark::GreensLimbDark
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A bo;$/;"	m	class:starry::oblate::occultation::Occultation
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^bo = 0.95$/;"	v
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=0.5,$/;"	v	class:TestSinOrCosThetaIsZero
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=0.85,$/;"	v	class:TestSmallRadius
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=0.9568856885688621,$/;"	v	class:TestKsqLessThanHalf
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=1.004987562112089,$/;"	v	class:TestKsqLessThanHalf
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=1.0961596159615965,$/;"	v	class:TestKsqLessThanHalf
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            bo=1.4251233204133293,$/;"	v	class:TestKsqLessThanHalf
+bo	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A bo;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+bold	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^  std::string bold(const char *msg) {$/;"	f	class:starry::utils::StarryException
+bpr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T bpr;$/;"	m	class:starry::limbdark::GreensLimbDark
+bsigma	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  Scalar bsigma;$/;"	m	class:starry::Ops
+bu	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  Vector<Scalar> bu;$/;"	m	class:starry::filter::Filter
+build_extensions	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    def build_extensions(self):$/;"	m	class:BuildExt
+c_opts	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    c_opts = {"msvc": ["\/EHsc"], "unix": []}$/;"	v	class:BuildExt
+ci	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        ci = bc * y - b * z$/;"	v
+circle_err	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def circle_err(x, y, bo, ro, theta):$/;"	f
+cjhigh	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> cjhigh;$/;"	m	class:starry::solver::Solver
+cjlow	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> cjlow;$/;"	m	class:starry::solver::Solver
+cmap	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            cmap="RdBu",$/;"	v
+cmdclass	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    cmdclass=cmdclass,$/;"	v	class:BuildExt
+cmdclass	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^cmdclass = {"build_ext": BuildExt}$/;"	v
+code	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int code;$/;"	m	class:starry::reflected::occultation::Occultation
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^inline void GreensLimbDark<T>::compute(const T &b_, const T &r_) {$/;"	f	class:starry::limbdark::GreensLimbDark
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void compute(const A &bo, const A &ro, const A &f, const A &theta) {$/;"	f	class:starry::oblate::occultation::Occultation
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  inline void compute(const T &b, const T &theta, const T &bo, const T &ro,$/;"	f	class:starry::reflected::occultation::Occultation
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  inline void compute(const T &bterm, const T &sigr) {$/;"	f	class:starry::reflected::phasecurve::PhaseCurve
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  inline void compute(int u, int v) {$/;"	f	class:starry::reflected::primitive::Vieta
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void compute(const Scalar &b, const Scalar &r) {$/;"	f	class:starry::solver::Greens
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void compute(const T &b_, const T &r_) {$/;"	f	class:starry::solver::Solver
+compute	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void compute(int u, int v) {$/;"	f	class:starry::solver::Vieta
+computeA	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^void computeA(int lmax, const Eigen::SparseMatrix<T> &A1,$/;"	f	namespace:starry::basis
+computeA1	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^inline void computeA1(int lmax, Eigen::SparseMatrix<Scalar> &A1,$/;"	f	namespace:starry::basis
+computeA1Inv	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^void computeA1Inv(int lmax, const Eigen::SparseMatrix<T> &A1,$/;"	f	namespace:starry::basis
+computeA2	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^void computeA2(int lmax, Eigen::SparseMatrix<Scalar> &A2,$/;"	f	namespace:starry::basis
+computeF	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  void computeF(const Vector<Scalar> &u, const Vector<Scalar> &f) {$/;"	f	class:starry::filter::Filter
+computeF	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  void computeF(const Vector<Scalar> &u, const Vector<Scalar> &f,$/;"	f	class:starry::filter::Filter
+computeHI	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  inline void computeHI(const T &bterm, const int deg_eff) {$/;"	f	class:starry::reflected::phasecurve::PhaseCurve
+computeI	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^inline void computeI(const int deg, Eigen::SparseMatrix<T> &I, const T &b,$/;"	f	namespace:starry::reflected::scatter
+computeIDownward	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void computeIDownward() {$/;"	f	class:starry::solver::Solver
+computeIUpward	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void computeIUpward() {$/;"	f	class:starry::solver::Solver
+computeI_Lambertian	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^inline void computeI_Lambertian(const int deg, Eigen::SparseMatrix<T> &I,$/;"	f	namespace:starry::reflected::scatter
+computeI_OrenNayar	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^inline void computeI_OrenNayar(const int deg, Eigen::SparseMatrix<T> &I,$/;"	f	namespace:starry::reflected::scatter
+computeJDownward	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  template <bool KSQLESSTHANONE> inline void computeJDownward() {$/;"	f	class:starry::solver::Solver
+computeJK	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  inline void computeJK(const int deg_eff) {$/;"	f	class:starry::reflected::phasecurve::PhaseCurve
+computeJUpward	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  template <bool KSQLESSTHANONE> inline void computeJUpward() {$/;"	f	class:starry::solver::Solver
+computeKVariables	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline void computeKVariables(const T &b, const T &r, T &ksq, T &k, T &kc,$/;"	f	namespace:starry::solver
+computeM0123	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::computeM0123() {$/;"	f	class:starry::limbdark::GreensLimbDark
+computeMCoeff	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::computeMCoeff() {$/;"	f	class:starry::limbdark::GreensLimbDark
+computeN01	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::computeN01() {$/;"	f	class:starry::limbdark::GreensLimbDark
+computeNCoeff	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::computeNCoeff() {$/;"	f	class:starry::limbdark::GreensLimbDark
+computeP	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline void computeP(const int ydeg, const T &bo_, const T &ro_,$/;"	f	namespace:starry::reflected::primitive
+computePolyBasis	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  inline void computePolyBasis(const int deg, const RowVector<T> &x,$/;"	f	class:starry::basis::Basis
+computePolynomialProduct	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  computePolynomialProduct(const int lmax1, const Vector<Scalar> &p1,$/;"	f	class:starry::filter::Filter
+computePolynomialProduct	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  inline void computePolynomialProduct(const int lmax1,$/;"	f	class:starry::filter::Filter
+computePolynomialProductMatrix	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  inline void computePolynomialProductMatrix(const int plmax,$/;"	f	class:starry::filter::Filter
+computePolynomialProductMatrixGradient	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  inline void computePolynomialProductMatrixGradient() {$/;"	f	class:starry::filter::Filter
+computeQ	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline void computeQ(const int ydeg, const Vector<T> &lam, Vector<T> &Q) {$/;"	f	namespace:starry::reflected::primitive
+computeR	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  inline void computeR(const Scalar &x_, const Scalar &y_, const Scalar &z_,$/;"	f	class:starry::wigner::Wigner
+computeRz	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  inline void computeRz(const Vector<Scalar> &theta) {$/;"	f	class:starry::wigner::Wigner
+computeS0	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<!A, void>::type computeS0() {$/;"	f	class:starry::solver::Solver
+computeS0	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<A, void>::type computeS0() {$/;"	f	class:starry::solver::Solver
+computeS0_	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline void computeS0_(const Scalar &b, const Scalar &r, const Scalar &ksq,$/;"	f	namespace:starry::solver
+computeS1	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^inline void GreensLimbDark<T>::computeS1() {$/;"	f	class:starry::limbdark::GreensLimbDark
+computeS2	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<!A, void>::type computeS2() {$/;"	f	class:starry::solver::Solver
+computeS2	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<A, void>::type computeS2() {$/;"	f	class:starry::solver::Solver
+computeS2_	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^inline void computeS2_(const Scalar &b, const Scalar &r, const Scalar &ksq,$/;"	f	namespace:starry::solver
+computeSparsePolynomialProduct	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^computeSparsePolynomialProduct(const std::vector<Eigen::Triplet<Scalar>> &p1,$/;"	f	namespace:starry::basis
+computeT	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^inline void computeT(const int ydeg, const S &b_, const S &theta,$/;"	f	namespace:starry::reflected::primitive
+computeU	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^void computeU(int lmax, const Eigen::SparseMatrix<T> &A1,$/;"	f	namespace:starry::basis
+compute_FE	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  inline void compute_FE() {$/;"	f	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+compute_L	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void compute_L(const A &phip1, const A &phip2, Matrix<A> &L) {$/;"	f	class:starry::oblate::occultation::Occultation
+compute_L0	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void compute_L0(Matrix<A> &L) {$/;"	f	class:starry::oblate::occultation::Occultation
+compute_PIp	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  inline void compute_PIp() {$/;"	f	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+compute_complement	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void compute_complement(const A &bo_, const A &ro_, const A &f_,$/;"	f	class:starry::oblate::occultation::Occultation
+compute_el2	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  inline void compute_el2(const Vector<A> &tanphi_, const A &m_) {$/;"	f	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+compute_phase	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void compute_phase() {$/;"	f	class:starry::oblate::occultation::Occultation
+compute_unweighted	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  inline void compute_unweighted(const T &bterm, const int deg_eff) {$/;"	f	class:starry::reflected::phasecurve::PhaseCurve
+computerT	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^template <typename T> void computerT(int lmax, RowVector<T> &rT) {$/;"	f	namespace:starry::basis
+coskap	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> coskap;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+coslam	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T coslam;$/;"	m	class:starry::solver::Solver
+coslam_is_zero	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  bool coslam_is_zero;$/;"	m	class:starry::solver::HIntegral
+cosmt	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> cosmt;$/;"	m	class:starry::reflected::occultation::Occultation
+cosmt	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> cosmt;        \/**< Matrix of cos(m theta) values *\/$/;"	m	class:starry::wigner::Wigner
+cosnt	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> cosnt;$/;"	m	class:starry::reflected::occultation::Occultation
+cosnt	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> cosnt;        \/**< Matrix of cos(n theta) values *\/$/;"	m	class:starry::wigner::Wigner
+cosphi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> cosphi;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+costheta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A costheta;$/;"	m	class:starry::oblate::occultation::Occultation
+costheta	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  T costheta;$/;"	m	class:starry::reflected::occultation::Occultation
+costheta	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> theta_Rz_cache, costheta, sintheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+cpp_flag	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^def cpp_flag(compiler):$/;"	f
+d	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar d() const { return this->_d; }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+d	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T d() const { return this->_d; }$/;"	f	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+dJdk2_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T dJdk2_integrand(const int N, const T &k2, const T &phi) {$/;"	f	namespace:starry::reflected::special
+dP2dbo_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T dP2dbo_integrand(const T &bo, const T &ro, const T &phi) {$/;"	f	namespace:starry::reflected::special
+dP2dro_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T dP2dro_integrand(const T &bo, const T &ro, const T &phi) {$/;"	f	namespace:starry::reflected::special
+debug	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^debug = bool(int(os.getenv("STARRY_DEBUG", 0)))$/;"	v
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  const int deg;$/;"	m	class:starry::basis::Basis
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int deg;  \/**< *\/$/;"	m	class:starry::filter::Filter
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  int deg;$/;"	m	class:starry::oblate::occultation::Occultation
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^deg = 2$/;"	v
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int deg;$/;"	m	class:starry::Ops
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int deg;$/;"	m	class:starry::reflected::occultation::Occultation
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    deg = 5$/;"	v
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int deg;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+deg	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int deg;  \/**< *\/$/;"	m	class:starry::wigner::Wigner
+deg_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  int deg_cache;$/;"	m	class:starry::basis::Basis
+deg_lamb	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int deg_lamb;$/;"	m	class:starry::reflected::occultation::Occultation
+deg_lamb	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int deg_lamb;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+deg_on94	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  int deg_on94;$/;"	m	class:starry::reflected::occultation::Occultation
+deg_on94	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  const int deg_on94;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+delta	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  Vector<T> delta;$/;"	m	class:starry::reflected::primitive::Vieta
+delta	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T delta;$/;"	m	class:starry::solver::Solver
+delta	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> delta;$/;"	m	class:starry::solver::Vieta
+design_matrix	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def design_matrix(x, y, z, b, deg, Nb):$/;"	f
+diff	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^        diff = np.abs(d[n] - d_n[n])$/;"	v
+dlmn	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^inline void dlmn(int l, const Scalar &s1, const Scalar &c1, const Scalar &c2,$/;"	f	namespace:starry::wigner
+dotR	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  inline void dotR(const MatrixBase<T1> &M, const Scalar &x, const Scalar &y,$/;"	f	class:starry::wigner::Wigner
+dotR_bM	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> dotR_bM;                        \/**< *\/$/;"	m	class:starry::wigner::Wigner
+dotR_btheta	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar dotR_bx, dotR_by, dotR_bz, dotR_btheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+dotR_bx	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar dotR_bx, dotR_by, dotR_bz, dotR_btheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+dotR_by	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar dotR_bx, dotR_by, dotR_bz, dotR_btheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+dotR_bz	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar dotR_bx, dotR_by, dotR_bz, dotR_btheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+dotR_result	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> dotR_result;                    \/**< *\/$/;"	m	class:starry::wigner::Wigner
+downwardM	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::downwardM() {$/;"	f	class:starry::limbdark::GreensLimbDark
+downwardN	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::downwardN() {$/;"	f	class:starry::limbdark::GreensLimbDark
+draw	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def draw(bo=0.58, ro=0.4, f=0.2, theta=0.5, file=None):$/;"	f
+dsTdb	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> dsTdb;$/;"	m	class:starry::limbdark::GreensLimbDark
+dsTdb	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  RowVector<Scalar> dsTdb;$/;"	m	class:starry::solver::Greens
+dsTdr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> dsTdr;$/;"	m	class:starry::limbdark::GreensLimbDark
+dsTdr	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  RowVector<Scalar> dsTdr;$/;"	m	class:starry::solver::Greens
+dummy	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T dummy;$/;"	m	class:starry::solver::Solver
+eDEGREE	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  enum { eDEGREE = STARRY_QUAD_POINTS };$/;"	e	enum:starry::quad::Quad::__anon1
+eigen_roots	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^eigen_roots(const std::vector<Scalar> &coeffs, bool &success) {$/;"	f	namespace:starry::oblate::geometry
+eigen_roots	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline std::vector<std::complex<T>> eigen_roots(const std::vector<T> &coeffs,$/;"	f	namespace:starry::reflected::geometry
+el2	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^inline Vector<T> el2(const Vector<T> &x_, const T &kc_, const T &a_,$/;"	f	namespace:starry::reflected::ellip
+ellip	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	/^namespace ellip {$/;"	n	namespace:starry
+ellip	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^namespace ellip {$/;"	n	namespace:starry::reflected
+eps	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^eps = 1e-8$/;"	v
+evaluate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      void evaluate(Scalar x) {$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+evaluate	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      void evaluate(T x) {$/;"	f	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+ext_modules	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    ext_modules=ext_modules,$/;"	v	class:BuildExt
+ext_modules	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^ext_modules = [$/;"	v
+extent	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            extent=(-1, 1, -1, 1),$/;"	v
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A f;$/;"	m	class:starry::oblate::occultation::Occultation
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^f = 0.2$/;"	v
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            f=0.1,$/;"	v	class:TestKsqLessThanHalf
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            f=0.1,$/;"	v	class:TestSinOrCosThetaIsZero
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            f=0.1,$/;"	v	class:TestSmallRadius
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            f=0.25,$/;"	v	class:TestKsqLessThanHalf
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        f = ci * get_f_exact(x, y, z, b)$/;"	v
+f	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        f = f.reshape(res, res)$/;"	v
+fac	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  T fac;$/;"	m	class:starry::reflected::primitive::Vieta
+fac	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T fac;$/;"	m	class:starry::solver::Vieta
+fapprox	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        fapprox = X.dot(w)$/;"	v
+fapprox	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        fapprox = fapprox.reshape(res, res)$/;"	v
+fdeg	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  const int fdeg; \/**< The highest degree of the filter map *\/$/;"	m	class:starry::basis::Basis
+fdeg	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int fdeg; \/**< *\/$/;"	m	class:starry::filter::Filter
+fdeg	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int fdeg;$/;"	m	class:starry::Ops
+fdeg	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int fdeg; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+filter	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^namespace filter {$/;"	n	namespace:starry
+find_intersections	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def find_intersections(bo, ro, f, theta):$/;"	f
+fourbr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T fourbr;$/;"	m	class:starry::limbdark::GreensLimbDark
+func	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^        def func(phi):$/;"	f	function:PythonSolver.get_pT2
+func	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def func(phi):$/;"	f	function:primitive
+g	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def g(self, n, x, y, z=None):$/;"	m	class:BruteSolver
+generate_header	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def generate_header(deg=5, Nb=4, res=100, nperline=3):$/;"	f
+geometry	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^namespace geometry {$/;"	n	namespace:starry::oblate
+geometry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^namespace geometry {$/;"	n	namespace:starry::reflected
+get_J	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_J(self, k2, phi1, phi2):$/;"	m	class:PythonSolver
+get_L	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_L(self, phip1, phip2):$/;"	m	class:PythonSolver
+get_V	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_V(self, k2, phi1, phi2):$/;"	m	class:PythonSolver
+get_W	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_W(self, k2, phi1, phi2):$/;"	m	class:PythonSolver
+get_angles	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^get_angles(const ADScalar<Scalar, N> &bo_, const ADScalar<Scalar, N> &ro_,$/;"	f	namespace:starry::oblate::geometry
+get_angles	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def get_angles(bo, ro, f, theta):$/;"	f
+get_angles	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline int get_angles(const T &b, const T &theta_, const T &costheta_,$/;"	f	namespace:starry::reflected::geometry
+get_case	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_case(self, n):$/;"	m	class:PythonSolver
+get_f_exact	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def get_f_exact(x, y, z, b):$/;"	f
+get_ijk	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def get_ijk(n):$/;"	f
+get_input	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^DTYPE_INPUT_NUM *get_input(int *ndim, npy_intp **shape, PyArrayObject *input,$/;"	f	namespace:starry
+get_input	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^DTYPE_INPUT_NUM *get_input(int ndim, npy_intp *shape, PyArrayObject *input,$/;"	f	namespace:starry
+get_input	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^DTYPE_INPUT_NUM *get_input(npy_intp *size, PyArrayObject *input, int *flag,$/;"	f	namespace:starry
+get_matrix_input	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^DTYPE_INPUT_NUM *get_matrix_input(npy_intp *N1, npy_intp *N2,$/;"	f	namespace:starry
+get_pT2	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_pT2(self, r, theta, f, b, phi1, phi2):$/;"	m	class:PythonSolver
+get_pybind_include	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^class get_pybind_include(object):$/;"	c
+get_roots	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^get_roots(const ADScalar<Scalar, N> &b_, const ADScalar<Scalar, N> &theta_,$/;"	f	namespace:starry::oblate::geometry
+get_roots	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline Vector<T> get_roots(const T &b_, const T &theta_, const T &costheta_,$/;"	f	namespace:starry::reflected::geometry
+get_sT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_sT($/;"	m	class:BruteSolver
+get_sT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_sT($/;"	m	class:CppSolver
+get_sT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_sT(self, bo=0.58, ro=0.4, f=0.2, theta=0.5, nruns=1):$/;"	m	class:NumericalSolver
+get_sT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def get_sT(self, nruns=1, f=0.2, **kwargs):$/;"	m	class:PythonSolver
+get_sT0	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def get_sT0(lmax):$/;"	f
+get_size	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^int get_size(PyArrayObject *input, npy_intp *size) {$/;"	f	namespace:starry
+get_value	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  inline Vector<T> &get_value(int u, int v) {$/;"	f	class:starry::reflected::primitive::Vieta
+get_value	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline T get_value(int u, int v) {$/;"	f	class:starry::solver::HIntegral
+get_value	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline Vector<T> &get_value(int u, int v) {$/;"	f	class:starry::solver::Vieta
+get_w	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def get_w(deg=5, Nb=4, res=100, prior_var=1e2):$/;"	f
+has_flag	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^def has_flag(compiler, flagname):$/;"	f
+hj	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  Vector<T> hj;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+hyp2f1	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline ADScalar<T, N> hyp2f1(const T &a, const T &b, const T &c,$/;"	f	namespace:starry::reflected::special
+hyp2f1	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^inline T hyp2f1(const T &a_, const T &b_, const T &c_, const T &z) {$/;"	f	namespace:starry::reflected::special
+ids	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^        ids=["cpp-py", "cpp-lin", "cpp-num", "cpp-brute", "brute-num"],$/;"	v	class:Compare
+idx	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        idx = np.isfinite(z) & (y < b * np.sqrt(1 - x ** 2))$/;"	v
+illuminate	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  inline RowVector<T> illuminate(const T &b, const T &theta,$/;"	f	class:starry::reflected::occultation::Occultation
+include_package_data	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    include_package_data=True,$/;"	v	class:BuildExt
+index_of	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def index_of(i, j, k, p, q, deg, Nb):$/;"	f
+integrate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  inline Vector<A> integrate(const A &a, const A &b, Function f,$/;"	f	class:starry::oblate::numerical::Quad
+integrate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def integrate(f, a, b, epsabs=1e-12, epsrel=1e-12, **kwargs):$/;"	f
+integrate	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  inline Vector<T> integrate(T a, T b, Function f, int npts) {$/;"	f	class:starry::quad::Quad
+integrate	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  template <typename Function> inline T integrate(T a, T b, Function f) {$/;"	f	class:starry::quad::Quad
+invb	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T invb;$/;"	m	class:starry::limbdark::GreensLimbDark
+invb	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T invb;$/;"	m	class:starry::solver::Solver
+invfourbr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T invfourbr;$/;"	m	class:starry::limbdark::GreensLimbDark
+invksq	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T invksq;$/;"	m	class:starry::limbdark::GreensLimbDark
+invksq	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T invksq;$/;"	m	class:starry::solver::Solver
+invn	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> invn;$/;"	m	class:starry::limbdark::GreensLimbDark
+invr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T invr;$/;"	m	class:starry::limbdark::GreensLimbDark
+invr	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T invr;$/;"	m	class:starry::solver::Solver
+is_even	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^inline bool is_even(int n, int ntimes = 1) {$/;"	f	namespace:starry::utils
+ivmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int ivmax;$/;"	m	class:starry::solver::Solver
+jvmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int jvmax;$/;"	m	class:starry::solver::Solver
+jvseries	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  std::vector<int> jvseries;$/;"	m	class:starry::solver::Solver
+k	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T k;$/;"	m	class:starry::limbdark::GreensLimbDark
+k	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A k;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+k	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T k;$/;"	m	class:starry::solver::Solver
+k2	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A k2;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+k2inv	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A k2inv;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kap0	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kap0;$/;"	m	class:starry::limbdark::GreensLimbDark
+kap0	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kap0;$/;"	m	class:starry::solver::Solver
+kap1	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kap1;$/;"	m	class:starry::limbdark::GreensLimbDark
+kap1	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kap1;$/;"	m	class:starry::solver::Solver
+kappa	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> kappa;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kappa	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> kappa;$/;"	m	class:starry::reflected::occultation::Occultation
+kc	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kc;$/;"	m	class:starry::limbdark::GreensLimbDark
+kc	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A kc;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kc	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kc;$/;"	m	class:starry::solver::Solver
+kc2	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A kc2;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kc2inv	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A kc2inv;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kcinv	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A kcinv;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kcsq	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kcsq;$/;"	m	class:starry::limbdark::GreensLimbDark
+kcsq	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kcsq;$/;"	m	class:starry::solver::Solver
+kinv	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A kinv;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+kite_area2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kite_area2;$/;"	m	class:starry::limbdark::GreensLimbDark
+kite_area2	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kite_area2;$/;"	m	class:starry::solver::Solver
+kj	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  Vector<T> kj;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+kkc	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T kkc;$/;"	m	class:starry::limbdark::GreensLimbDark
+kkc	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T kkc;$/;"	m	class:starry::solver::Solver
+ksq	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T ksq;$/;"	m	class:starry::limbdark::GreensLimbDark
+ksq	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T ksq;$/;"	m	class:starry::solver::Solver
+l_opts	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    l_opts = {"msvc": [], "unix": []}$/;"	v	class:BuildExt
+lam	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> lam;$/;"	m	class:starry::reflected::occultation::Occultation
+legendre	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^inline void legendre(int lmax,$/;"	f	namespace:starry::basis
+likely	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	46;"	d
+likely	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	49;"	d
+limbdark	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^namespace limbdark {$/;"	n	namespace:starry
+lmax	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  int lmax;$/;"	m	class:starry::limbdark::GreensLimbDark
+lmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int lmax;$/;"	m	class:starry::solver::Greens
+lmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int lmax;$/;"	m	class:starry::solver::Solver
+m_msg	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^  std::string m_msg;$/;"	m	class:starry::utils::StarryException
+mach_eps	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^inline Eigen::AutoDiffScalar<T> mach_eps(tag<Eigen::AutoDiffScalar<T>>) {$/;"	f	namespace:starry::utils
+mach_eps	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T mach_eps() { return mach_eps(tag<T>()); }$/;"	f	namespace:starry::utils
+mach_eps	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T mach_eps(tag<T>) {$/;"	f	namespace:starry::utils
+macros	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    macros = {}$/;"	v
+max_error_cpp_brute	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_brute=5e-3,$/;"	v	class:TestSinOrCosThetaIsZero
+max_error_cpp_lin	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_lin=1e-3,$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_lin	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_lin=1e-5,$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_lin	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_lin=1e-5,$/;"	v	class:TestSinOrCosThetaIsZero
+max_error_cpp_lin	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_lin=1e-6,$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_lin	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_lin=1e-6,$/;"	v	class:TestSmallRadius
+max_error_cpp_num	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_num=5e-3,$/;"	v	class:TestSinOrCosThetaIsZero
+max_error_cpp_py	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_py=1e-3,  # TODO: Can we improve on this?$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_py	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_py=1e-5,$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_py	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_py=1e-6,$/;"	v	class:TestKsqLessThanHalf
+max_error_cpp_py	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            max_error_cpp_py=1e-6,$/;"	v	class:TestSmallRadius
+misc	/home/st9/repo/starry/starry/_core/ops/lib/include/misc.h	/^namespace misc {$/;"	n	namespace:starry
+mp_backend	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^typedef boost::multiprecision::cpp_dec_float<STARRY_NDIGITS> mp_backend;$/;"	t
+n_	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> n_;$/;"	m	class:starry::limbdark::GreensLimbDark
+name	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    name="oblate",$/;"	v	class:BuildExt
+ncoeff	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  int ncoeff;$/;"	m	class:starry::oblate::occultation::Occultation
+ndnp2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> ndnp2;$/;"	m	class:starry::limbdark::GreensLimbDark
+nimg	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    nimg = 6$/;"	v
+norm	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  const double norm;         \/**< Map normalization constant *\/$/;"	m	class:starry::basis::Basis
+norm_unit	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <typename T> inline UnitVector<T> norm_unit(const UnitVector<T> &vec) {$/;"	f	namespace:starry::utils
+nruns	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^nruns = 1$/;"	v
+nudge_inputs	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  inline void nudge_inputs() {$/;"	f	class:starry::oblate::occultation::Occultation
+numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^namespace numerical {$/;"	n	namespace:starry::oblate
+oblate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^namespace oblate {$/;"	n	namespace:starry
+oblate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^namespace oblate {$/;"	n	namespace:starry
+oblate	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^namespace oblate {$/;"	n	namespace:starry
+occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^namespace occultation {$/;"	n	namespace:starry::oblate
+occultation	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^namespace occultation {$/;"	n	namespace:starry::reflected
+on_dayside	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline bool on_dayside(const T &b, const T &theta, const T &costheta,$/;"	f	namespace:starry::reflected::geometry
+onembmr2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T onembmr2;$/;"	m	class:starry::limbdark::GreensLimbDark
+onembmr2inv	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T onembmr2inv;$/;"	m	class:starry::limbdark::GreensLimbDark
+onembpr2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T onembpr2;$/;"	m	class:starry::limbdark::GreensLimbDark
+onemr2mb2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T onemr2mb2;$/;"	m	class:starry::limbdark::GreensLimbDark
+operator ()	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  inline Vector<T> &operator()(int u, int v) { return get_value(u, v); }$/;"	f	class:starry::reflected::primitive::Vieta
+operator ()	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline T operator()(int u, int v) { return get_value(u, v); }$/;"	f	class:starry::solver::HIntegral
+operator ()	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline Vector<T> &operator()(int u, int v) { return get_value(u, v); }$/;"	f	class:starry::solver::Vieta
+optimize	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    optimize = 0$/;"	v
+optimize	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    optimize = 2$/;"	v
+origin	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            origin="lower",$/;"	v
+p	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  A p;$/;"	m	class:starry::oblate::numerical::Quad
+p	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> p;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+p0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A p0;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+pT	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  Matrix<T, RowMajor> pT;$/;"	m	class:starry::basis::Basis
+pTbar_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def pTbar_numerical(lmax, phi, b, r, f, theta, linear=False):$/;"	f
+pTodd	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^pTodd(const int &deg, const ADScalar<Scalar, N> &bo,$/;"	f	namespace:starry::oblate::numerical
+pTodd_integrand	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^inline void pTodd_integrand(const int &deg, const ADScalar<Scalar, N> &bo,$/;"	f	namespace:starry::oblate::numerical
+packages	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    packages=find_packages(),$/;"	v	class:BuildExt
+pairdiff	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^template <typename T> inline T pairdiff(const Vector<T> &array) {$/;"	f	namespace:starry::reflected::special
+phasecurve	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^namespace phasecurve {$/;"	n	namespace:starry::reflected
+phi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> phi;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+phi1	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A phi1, phi2, xi1, xi2;$/;"	m	class:starry::oblate::occultation::Occultation
+phi2	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A phi1, phi2, xi1, xi2;$/;"	m	class:starry::oblate::occultation::Occultation
+pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^inline Eigen::AutoDiffScalar<T> pi(tag<Eigen::AutoDiffScalar<T>>) {$/;"	f	namespace:starry::utils
+pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T pi() { return pi(tag<T>()); }$/;"	f	namespace:starry::utils
+pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T pi() { return static_cast<T>(M_PI); }$/;"	f	namespace:starry::utils
+pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T pi(tag<T>) {$/;"	f	namespace:starry::utils
+poly_basis	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^def poly_basis(x, y, z, deg):$/;"	f
+polyadd	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^polyadd(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p1,$/;"	f	namespace:starry::sturm
+polycountroots	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^inline int polycountroots(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p,$/;"	f	namespace:starry::sturm
+polyder	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^polyder(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p) {$/;"	f	namespace:starry::sturm
+polymul	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^polymul(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p1,$/;"	f	namespace:starry::sturm
+polymulz	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^inline void polymulz(int lmax, const MatrixBase<T1> &p, MatrixBase<T2> &pz) {$/;"	f	namespace:starry::basis
+polyrem	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^polyrem(const Eigen::Matrix<T, Eigen::Dynamic, 1> &u,$/;"	f	namespace:starry::sturm
+polysturm	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^polysturm(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p) {$/;"	f	namespace:starry::sturm
+polyval	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^inline T polyval(const Eigen::Matrix<T, Eigen::Dynamic, 1> &p, const double x) {$/;"	f	namespace:starry::sturm
+pow_coslam	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> pow_coslam;$/;"	m	class:starry::solver::HIntegral
+pow_ksq	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> pow_ksq;$/;"	m	class:starry::solver::Solver
+pow_sinlam	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Vector<T> pow_sinlam;$/;"	m	class:starry::solver::HIntegral
+precomputeIGamma	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<!A, void>::type precomputeIGamma() {$/;"	f	class:starry::solver::Solver
+precomputeIGamma	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline typename std::enable_if<A, void>::type precomputeIGamma() {$/;"	f	class:starry::solver::Solver
+precomputeIGamma	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void precomputeIGamma() {$/;"	f	class:starry::solver::Solver
+precomputeJCoeffs	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void precomputeJCoeffs() {$/;"	f	class:starry::solver::Solver
+primitive	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def primitive(x, y, dx, dy, phi1, phi2, f, theta, n=0):$/;"	f
+primitive	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^namespace primitive {$/;"	n	namespace:starry::reflected
+print_roots_and_weights	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  void print_roots_and_weights(std::ostream &out) const {$/;"	f	class:starry::quad::Quad
+print_scalar	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline void print_scalar(const Eigen::AutoDiffScalar<T> &x) {$/;"	f	namespace:starry::utils
+print_scalar	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline void print_scalar(const T &x) {$/;"	f	namespace:starry::utils
+q	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  IntegralVector<A> q;$/;"	m	class:starry::oblate::numerical::Quad
+qcond	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  bool qcond;$/;"	m	class:starry::solver::Solver
+quad	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^namespace quad {$/;"	n	namespace:starry
+quartic_coeffs	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def quartic_coeffs(f, xo, yo, ro):$/;"	f
+r	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T r;$/;"	m	class:starry::limbdark::GreensLimbDark
+r	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    IntegralVector<Scalar> r;$/;"	m	class:starry::oblate::numerical::Quad::LegendrePolynomial
+r	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    Eigen::Matrix<T, eDEGREE, 1> r;$/;"	m	class:starry::quad::Quad::LegendrePolynomial
+r	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T r;$/;"	m	class:starry::solver::Solver
+r2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T r2;$/;"	m	class:starry::limbdark::GreensLimbDark
+rT	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  RowVector<T> rT;           \/**< The rotation solution vector *\/$/;"	m	class:starry::basis::Basis
+rT	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  RowVector<T> rT;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+rT0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  RowVector<T> rT0;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+rTA1	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  RowVector<T> rTA1;         \/**< The rotation vector in Ylm space *\/$/;"	m	class:starry::basis::Basis
+r_ad	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  ADType r_ad;$/;"	m	class:starry::solver::Greens
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^namespace reflected {$/;"	n	namespace:starry
+reflected	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^namespace reflected {$/;"	n	namespace:starry
+res	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    res = 300$/;"	v
+res	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  T res;$/;"	m	class:starry::reflected::primitive::Vieta
+res	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T res;$/;"	m	class:starry::solver::Vieta
+reset	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  void reset(const T &delta_) {$/;"	f	class:starry::reflected::primitive::Vieta
+reset	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  inline void reset(const T &coslam, const T &sinlam) {$/;"	f	class:starry::solver::HIntegral
+reset	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  void reset(const T &delta_) {$/;"	f	class:starry::solver::Vieta
+rj	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^inline T rj(const T &x_, const T &y_, const T &z_, const T &p_) {$/;"	f	namespace:starry::reflected::ellip
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A ro;$/;"	m	class:starry::oblate::occultation::Occultation
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^ro = 0.25$/;"	v
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            ro=0.1,$/;"	v	class:TestKsqLessThanHalf
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            ro=0.1,$/;"	v	class:TestSmallRadius
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            ro=0.5,$/;"	v	class:TestKsqLessThanHalf
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            ro=0.5,$/;"	v	class:TestSinOrCosThetaIsZero
+ro	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  A ro;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+root	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    Scalar root(int i) const { return this->r(i); }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial
+root	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    T root(int i) const { return this->r(i); }$/;"	f	class:starry::quad::Quad::LegendrePolynomial
+root_pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^inline Eigen::AutoDiffScalar<T> root_pi(tag<Eigen::AutoDiffScalar<T>>) {$/;"	f	namespace:starry::utils
+root_pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T root_pi() { return root_pi(tag<T>()); }$/;"	f	namespace:starry::utils
+root_pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T root_pi() { return static_cast<T>(M_SQRTPI); }$/;"	f	namespace:starry::utils
+root_pi	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> inline T root_pi(tag<T>) {$/;"	f	namespace:starry::utils
+rotar	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^rotar(const int ydeg, const Scalar &c1, const Scalar &s1, const Scalar &c2,$/;"	f	namespace:starry::wigner
+sT	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  RowVector<T> sT;$/;"	m	class:starry::limbdark::GreensLimbDark
+sT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  RowVector<A> sT;$/;"	m	class:starry::oblate::occultation::Occultation
+sT	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  RowVector<T> sT;$/;"	m	class:starry::reflected::occultation::Occultation
+sT	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  RowVector<Scalar> &sT;$/;"	m	class:starry::solver::Greens
+sT	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  RowVector<T> sT;$/;"	m	class:starry::solver::Solver
+sT0	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  RowVector<A> sT0;$/;"	m	class:starry::oblate::occultation::Occultation
+sTbar	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  RowVector<A> sTbar;$/;"	m	class:starry::oblate::occultation::Occultation
+sTbar_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def sTbar_numerical(lmax, b, r, f, theta, linear=False):$/;"	f
+sTe	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  inline RowVector<T> sTe(const T &bo, const T &ro, const T &sigr) {$/;"	f	class:starry::reflected::occultation::Occultation
+sTr	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  inline RowVector<T> sTr(const T &b, const T &theta, const T &sigr) {$/;"	f	class:starry::reflected::occultation::Occultation
+sTr_hat	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  inline RowVector<T> sTr_hat(const T &b, const T &theta, const T &sigr) {$/;"	f	class:starry::reflected::occultation::Occultation
+s_LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    Quad<Scalar, N>::s_LegendrePolynomial;$/;"	m	class:starry::oblate::numerical::Quad
+s_LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  static LegendrePolynomial s_LegendrePolynomial;$/;"	m	class:starry::oblate::numerical::Quad
+s_LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^  static LegendrePolynomial s_LegendrePolynomial;$/;"	m	class:starry::quad::Quad
+s_LegendrePolynomial	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^typename Quad<T>::LegendrePolynomial Quad<T>::s_LegendrePolynomial;$/;"	m	class:starry::quad::Quad
+scatter	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^namespace scatter {$/;"	n	namespace:starry::reflected
+set	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  Matrix<bool> set;$/;"	m	class:starry::reflected::primitive::Vieta
+set	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Matrix<bool> set;$/;"	m	class:starry::solver::HIntegral
+set	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Matrix<bool> set;$/;"	m	class:starry::solver::Vieta
+sgn	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^template <typename T> inline int sgn(T val) {$/;"	f	namespace:starry::sturm
+sgn	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^template <typename T> int sgn(T val) { return (T(0) < val) - (val < T(0)); }$/;"	f	namespace:starry
+sinlam	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T sinlam;$/;"	m	class:starry::solver::Solver
+sinmt	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> sinmt;$/;"	m	class:starry::reflected::occultation::Occultation
+sinmt	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> sinmt;        \/**< Matrix of sin(m theta) values *\/$/;"	m	class:starry::wigner::Wigner
+sinnt	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> sinnt;$/;"	m	class:starry::reflected::occultation::Occultation
+sinnt	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> sinnt;        \/**< Matrix of sin(n theta) values *\/$/;"	m	class:starry::wigner::Wigner
+sinphi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> sinphi;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+sintheta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A sintheta;$/;"	m	class:starry::oblate::occultation::Occultation
+sintheta	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  T sintheta;$/;"	m	class:starry::reflected::occultation::Occultation
+sintheta	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> theta_Rz_cache, costheta, sintheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+solve	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^    def solve(self, f0, fN, A, B, C, N):$/;"	m	class:PythonSolver
+solver	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^namespace solver {$/;"	n	namespace:starry
+solvers	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/conftest.py	/^def solvers(lmax=5):$/;"	f
+sort_lam	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline Vector<T> sort_lam(const T &b, const T &theta, const T &costheta,$/;"	f	namespace:starry::reflected::geometry
+sort_phi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline Vector<T> sort_phi(const T &b, const T &theta, const T &costheta,$/;"	f	namespace:starry::reflected::geometry
+sort_xi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^inline Vector<T> sort_xi(const T &b, const T &theta, const T &costheta,$/;"	f	namespace:starry::reflected::geometry
+special	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^namespace special {$/;"	n	namespace:starry::reflected
+spotYlm	/home/st9/repo/starry/starry/_core/ops/lib/include/misc.h	/^inline Matrix<Scalar> spotYlm(const RowVector<Scalar> &amp, const Scalar &sigma,$/;"	f	namespace:starry::misc
+spotYlm	/home/st9/repo/starry/starry/_core/ops/lib/include/misc.h	/^inline void spotYlm(const RowVector<Scalar> &amp, const Scalar &sigma_,$/;"	f	namespace:starry::misc
+spotYlm	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  inline Matrix<Scalar> spotYlm(const RowVector<Scalar> &amp,$/;"	f	class:starry::Ops
+spotYlm	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  inline void spotYlm(const RowVector<Scalar> &amp, const Scalar &sigma,$/;"	f	class:starry::Ops
+sqarea	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T sqarea;$/;"	m	class:starry::limbdark::GreensLimbDark
+sqbr	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T sqbr;$/;"	m	class:starry::limbdark::GreensLimbDark
+sqonembmr2	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T sqonembmr2;$/;"	m	class:starry::limbdark::GreensLimbDark
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/ellip.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/misc.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/geometry.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/geometry.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/scatter.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/special.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^namespace starry {$/;"	n
+starry	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^namespace starry {$/;"	n
+sturm	/home/st9/repo/starry/starry/_core/ops/lib/include/sturm.h	/^namespace sturm {$/;"	n	namespace:starry
+tTbar_numerical	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/oblate/oblate.py	/^def tTbar_numerical(lmax, xi, b, r, f, theta):$/;"	f
+tag	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <class T> struct tag {};$/;"	s	namespace:starry::utils
+tensordotRz	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  inline void tensordotRz(const MatrixBase<T1> &M, const Vector<Scalar> &theta,$/;"	f	class:starry::wigner::Wigner
+tensordotRz	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  inline void tensordotRz(const MatrixBase<T1> &M,$/;"	f	class:starry::wigner::Wigner
+tensordotRz_bM	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> tensordotRz_bM;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+tensordotRz_btheta	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> tensordotRz_btheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+tensordotRz_result	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Matrix<Scalar> tensordotRz_result; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+test_compare	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^    def test_compare(self, solvers, kwargs, compare, request):$/;"	m	class:Compare
+test_debug	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^    def test_debug(self, kwargs):$/;"	m	class:TestCppExact
+test_debug	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^    def test_debug(self, kwargs):$/;"	m	class:TestDebug
+test_speed	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_speed.py	/^def test_speed(solvers, nruns=1000, niter=30):$/;"	f
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^inline void theta(int lmax,$/;"	f	namespace:starry::basis
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A theta;$/;"	m	class:starry::oblate::occultation::Occultation
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/derivs.py	/^theta = 0.5$/;"	v
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=-1.5707962222892058,$/;"	v	class:TestKsqLessThanHalf
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=0.5 * np.pi,$/;"	v	class:TestKsqLessThanHalf
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=0.5 * np.pi,$/;"	v	class:TestSmallRadius
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=0.5,$/;"	v	class:TestSinOrCosThetaIsZero
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=1.3587016514315267,$/;"	v	class:TestKsqLessThanHalf
+theta	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/tests/test_oblate.py	/^            theta=1.4711276743037345,$/;"	v	class:TestKsqLessThanHalf
+theta_Rz_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> theta_Rz_cache, costheta, sintheta; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+theta_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar x_cache, y_cache, z_cache, theta_cache;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+third	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^  T third;$/;"	m	class:starry::limbdark::GreensLimbDark
+third	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T third;$/;"	m	class:starry::solver::Solver
+tmp_c	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> tmp_c, tmp_s; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+tmp_s	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Vector<Scalar> tmp_c, tmp_s; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+tol	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/phasecurve.h	/^  T tol;$/;"	m	class:starry::reflected::phasecurve::PhaseCurve
+tol	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar tol;                                        \/**< *\/$/;"	m	class:starry::wigner::Wigner
+total_em	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  RowVector<T> total_em;$/;"	m	class:starry::reflected::occultation::Occultation
+u_choose_j1	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  T u_choose_j1;$/;"	m	class:starry::reflected::primitive::Vieta
+u_choose_j1	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T u_choose_j1;$/;"	m	class:starry::solver::Vieta
+udeg	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  const int udeg; \/**< The highest degree of the limb darkening map *\/$/;"	m	class:starry::basis::Basis
+udeg	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int udeg; \/**< *\/$/;"	m	class:starry::filter::Filter
+udeg	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int udeg;$/;"	m	class:starry::Ops
+udeg	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int udeg; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+umax	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  int umax;$/;"	m	class:starry::reflected::primitive::Vieta
+umax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int umax;$/;"	m	class:starry::solver::HIntegral
+umax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int umax;$/;"	m	class:starry::solver::Vieta
+unlikely	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	47;"	d
+unlikely	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	50;"	d
+upwardM	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::upwardM() {$/;"	f	class:starry::limbdark::GreensLimbDark
+upwardN	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <class T> inline void GreensLimbDark<T>::upwardN() {$/;"	f	class:starry::limbdark::GreensLimbDark
+url	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^  std::string url(const char *msg) {$/;"	f	class:starry::utils::StarryException
+utils	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^namespace utils {$/;"	n	namespace:starry
+v	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar v() const { return this->_v; }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+v	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T v() const { return this->_v; }$/;"	f	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+vT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^  IntegralRowVector<A> vT;$/;"	m	class:starry::oblate::numerical::Quad
+v_choose_c0	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  T v_choose_c0;$/;"	m	class:starry::reflected::primitive::Vieta
+v_choose_c0	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  T v_choose_c0;$/;"	m	class:starry::solver::Vieta
+value	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Matrix<T> value;$/;"	m	class:starry::solver::HIntegral
+vec	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  Matrix<Vector<T>> vec;$/;"	m	class:starry::reflected::primitive::Vieta
+vec	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  Matrix<Vector<T>> vec;$/;"	m	class:starry::solver::Vieta
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            vmax=0.1,$/;"	v
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            vmax=vmax,$/;"	v
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        vmax = 1$/;"	v
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/primitive.h	/^  int vmax;$/;"	m	class:starry::reflected::primitive::Vieta
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int vmax;$/;"	m	class:starry::solver::HIntegral
+vmax	/home/st9/repo/starry/starry/_core/ops/lib/include/solver.h	/^  int vmax;$/;"	m	class:starry::solver::Vieta
+vmin	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            vmin=-0.1,$/;"	v
+vmin	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^            vmin=vmin,$/;"	v
+vmin	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^        vmin = 0$/;"	v
+w	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/ellip.h	/^  Vector<A> w;$/;"	m	class:starry::reflected::ellip::IncompleteEllipticIntegrals
+w	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    w = get_w(deg=deg, Nb=Nb)$/;"	v
+wT	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    IntegralRowVector<Scalar> wT;$/;"	m	class:starry::oblate::numerical::Quad::LegendrePolynomial
+wT	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    Eigen::Matrix<T, 1, eDEGREE> wT;$/;"	m	class:starry::quad::Quad::LegendrePolynomial
+wallis	/home/st9/repo/starry/starry/_core/ops/lib/include/limbdark.h	/^template <typename T> inline T wallis(int n) {$/;"	f	namespace:starry::limbdark
+weight	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^    Scalar weight(int i) const { return this->wT(i); }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial
+weight	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^    T weight(int i) const { return this->wT(i); }$/;"	f	class:starry::quad::Quad::LegendrePolynomial
+what	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^  virtual const char *what() const throw() { return m_msg.c_str(); }$/;"	f	class:starry::utils::StarryException
+wigner	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^namespace wigner {$/;"	n	namespace:starry
+wrap_into	/home/st9/repo/starry/starry/_core/ops/lib/include/theano_helpers.h	/^template <typename T> inline T wrap_into(T x, T period) {$/;"	f	namespace:starry
+x	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/numerical.h	/^      Scalar x() const { return this->_x; }$/;"	f	class:starry::oblate::numerical::Quad::LegendrePolynomial::Evaluation
+x	/home/st9/repo/starry/starry/_core/ops/lib/include/quad.h	/^      T x() const { return this->_x; }$/;"	f	class:starry::quad::Quad::LegendrePolynomial::Evaluation
+x	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    x = x.reshape(-1)$/;"	v
+x_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  RowVector<T> x_cache, y_cache, z_cache;$/;"	m	class:starry::basis::Basis
+x_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar x_cache, y_cache, z_cache, theta_cache;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+xhat	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <typename T> inline UnitVector<T> xhat() {$/;"	f	namespace:starry::utils
+xi	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/occultation.h	/^  Vector<T> xi;$/;"	m	class:starry::reflected::occultation::Occultation
+xi1	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A phi1, phi2, xi1, xi2;$/;"	m	class:starry::oblate::occultation::Occultation
+xi2	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/occultation.h	/^  A phi1, phi2, xi1, xi2;$/;"	m	class:starry::oblate::occultation::Occultation
+xygrid	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    xygrid = np.linspace(-1, 1, res)$/;"	v
+y	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    y = y.reshape(-1)$/;"	v
+y_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  RowVector<T> x_cache, y_cache, z_cache;$/;"	m	class:starry::basis::Basis
+y_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar x_cache, y_cache, z_cache, theta_cache;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+ydeg	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  const int ydeg; \/**< The highest degree of the spherical harmonic map *\/$/;"	m	class:starry::basis::Basis
+ydeg	/home/st9/repo/starry/starry/_core/ops/lib/include/filter.h	/^  const int ydeg; \/**< *\/$/;"	m	class:starry::filter::Filter
+ydeg	/home/st9/repo/starry/starry/_core/ops/lib/include/ops.h	/^  const int ydeg;$/;"	m	class:starry::Ops
+ydeg	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  const int ydeg; \/**< *\/$/;"	m	class:starry::wigner::Wigner
+yhat	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <typename T> inline UnitVector<T> yhat() {$/;"	f	namespace:starry::utils
+z	/home/st9/repo/starry/starry/_core/ops/lib/include/reflected/oren_nayar.py	/^    z = np.sqrt(1 - x ** 2 - y ** 2)$/;"	v
+z_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/basis.h	/^  RowVector<T> x_cache, y_cache, z_cache;$/;"	m	class:starry::basis::Basis
+z_cache	/home/st9/repo/starry/starry/_core/ops/lib/include/wigner.h	/^  Scalar x_cache, y_cache, z_cache, theta_cache;     \/**< *\/$/;"	m	class:starry::wigner::Wigner
+zhat	/home/st9/repo/starry/starry/_core/ops/lib/include/utils.h	/^template <typename T> inline UnitVector<T> zhat() {$/;"	f	namespace:starry::utils
+zip_safe	/home/st9/repo/starry/starry/_core/ops/lib/include/oblate/setup.py	/^    zip_safe=False,$/;"	v	class:BuildExt

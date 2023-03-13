@@ -1,0 +1,190 @@
+@startuml classes
+set namespaceSeparator none
+class "Amplitude" as starry.maps.Amplitude {
+  __get__(instance, owner)
+  __set__(instance, value)
+}
+class "LimbDarkenedBase" as starry.maps.LimbDarkenedBase {
+  _ops_class_ : OpsLD
+  _get_flux_kwargs(kwargs)
+  _get_ortho_latitude_lines()
+  _get_ortho_longitude_lines(i)
+  _get_projection()
+  _render_greedy()
+  _updatefig()
+  flux()
+  intensity(mu, x, y)
+  render(res)
+}
+class "Map" as starry.maps.Map.Map {
+  __props__ : dict
+  _lazy : NoneType
+  _linalg : greedy_linalg, lazy_linalg
+  _math : greedy_math, lazy_math
+  lazy
+  __init__()
+}
+class "MapBase" as starry.maps.MapBase {
+  N
+  Nf
+  Nu
+  Ny
+  _C : NoneType
+  _L : NoneType
+  _N
+  _Nf
+  _Nu
+  _Ny
+  _amp
+  _angle_factor
+  _angle_unit
+  _deg
+  _f
+  _fdeg
+  _flux : NoneType
+  _mu : NoneType
+  _nw
+  _solution : NoneType
+  _u
+  _udeg
+  _wav
+  _wav_factor
+  _wav_unit
+  _y
+  _ydeg
+  amp
+  amp
+  angle_unit
+  angle_unit
+  deg
+  fdeg
+  nw
+  ops
+  solution
+  u
+  udeg
+  wav
+  wav
+  wav_unit
+  wav_unit
+  y
+  ydeg
+  __getitem__(idx)
+  __init__(ydeg, udeg, fdeg, nw)
+  __setitem__(idx, val)
+  _get_norm(image_arr)
+  _get_ortho_borders()
+  _get_projection()
+  _no_spectral()
+  _updatefig(i, img, image, img_overlay, overlay, projection, grid, lonlines, latlines, borders, kwargs)
+  draw()
+  limbdark_is_physical()
+  lnlike()
+  remove_prior()
+  reset()
+  set_data(flux, C, cho_C)
+  set_prior()
+  show()
+  solve()
+}
+class "OblateAmplitude" as starry.maps.OblateAmplitude {
+  __get__(instance, owner)
+}
+class "OblateBase" as starry.maps.OblateBase {
+  _beta
+  _f
+  _fobl
+  _hcdivkb : float
+  _norm
+  _omega
+  _ops_class_ : OpsOblate
+  _tpole
+  _twohcsq : float
+  _wav
+  amp
+  beta
+  f
+  fproj
+  omega
+  tpole
+  wav
+  _get_ortho_borders()
+  _get_ortho_latitude_lines()
+  _get_ortho_longitude_lines(i)
+  _render_greedy()
+  _set_grav_dark_filter()
+  design_matrix()
+  flux()
+  render(res, projection, theta)
+  reset()
+}
+class "RVBase" as starry.maps.RVBase {
+  _alpha
+  _f
+  _ops_class_ : OpsRV
+  _velocity_factor
+  _velocity_unit
+  _veq
+  alpha
+  alpha
+  velocity_unit
+  velocity_unit
+  veq
+  veq
+  _get_norm(image)
+  _set_RV_filter()
+  _unset_RV_filter()
+  intensity()
+  render()
+  reset()
+  rv()
+  show(rv)
+}
+class "ReflectedBase" as starry.maps.ReflectedBase {
+  _ops_class_ : OpsReflected
+  _sigr
+  roughness
+  roughness
+  source_npts
+  _get_flux_kwargs(kwargs)
+  design_matrix()
+  flux()
+  intensity(lat, lon, xs, ys, zs, rs, on94_exact, illuminate)
+  render(res, projection, illuminate, theta, xs, ys, zs, rs, on94_exact)
+  reset()
+  show()
+}
+class "YlmBase" as starry.maps.YlmBase {
+  _amp
+  _inc
+  _obl
+  _ops_class_ : OpsYlm
+  _y
+  amp
+  inc
+  inc
+  obl
+  obl
+  oversample
+  _get_flux_kwargs(kwargs)
+  _get_ortho_latitude_lines()
+  _get_ortho_longitude_lines(i)
+  _render_greedy()
+  design_matrix()
+  flux()
+  get_latlon_grid(res, projection)
+  get_pixel_transforms(oversample, lam, eps)
+  intensity(lat, lon)
+  intensity_design_matrix(lat, lon)
+  load(image, extent, smoothing, fac, eps, force_psd)
+  minimize(oversample, ntries, bounds, return_info)
+  render(res, projection, theta)
+  reset()
+  rotate(axis, theta)
+  sht_matrix(inverse, return_grid, smoothing, oversample, lam)
+  spot()
+}
+starry.maps.OblateAmplitude --|> starry.maps.Amplitude
+starry.maps.Amplitude --* starry.maps.MapBase : amp
+starry.maps.OblateAmplitude --* starry.maps.OblateBase : amp
+@enduml

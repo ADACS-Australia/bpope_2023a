@@ -1,0 +1,65 @@
+@startuml PERT
+left to right direction
+' Horizontal lines: -->, <--, <-->
+' Vertical lines: ->, <-, <->
+title Jaxify starry
+
+map starry_theano.Level_0 {
+    user defined operations => class: _c_ops (C exension)
+}
+
+map starry_theano.Level_1 {
+     theano Op => classes: _core.ops.* (eg. dotROp, sTOp)
+}
+
+map starry_theano.Level_2 {
+    theano functions => classes: _core.core.* (e.g. OpsYlm, OpsReflected)
+}
+
+map starry_theano.Level_3 {
+    maps base calculation => classes: maps.* (e.g. OpsYlm, ReflectedBase)
+    maps base visualization => class: maps.MapBase
+}
+
+map starry_theano.Level_4 {
+    user interface (Map) => class: maps.Map
+}
+
+map starry_theano.Level_5 {
+    user interface (System) => classes: kepler.* (e.g kepler.Primary, kepler.System)
+    user interface (Doppler) => modules: doppler*
+}
+
+map starry_jax.Level_0 {
+    implementation of starry paper equations (low-level) => python functions
+}
+
+map starry_jax.Level_1 {
+    implementation of starry paper equations (high-level) => python functions
+}
+
+map starry_jax.Level_2 {
+    maps base calculation =>
+    maps base visualization =>
+}
+
+map starry_jax.Level_3 {
+    user interface (Map) =>
+}
+
+map starry_jax.Level_4 {
+    user interface (System) =>
+    user interface (Doppler) =>
+}
+
+
+starry_theano.Level_0 --> starry_jax.Level_0
+starry_theano.Level_2 --> starry_jax.Level_0
+starry_theano.Level_2 --> starry_jax.Level_1
+starry_theano.Level_3 --> starry_jax.Level_2
+starry_theano.Level_4 --> starry_jax.Level_3
+starry_theano.Level_5 --> starry_jax.Level_4
+
+
+
+@enduml

@@ -26,6 +26,12 @@ planets.csv
 docs/todos.json
 docs/todos.rst
 starry/starry_version.py
+*.png
+*.svg
+*.dot
+*.pstats
+d3viz/*
+
 
 tmp/*
 tests/cpp/test
